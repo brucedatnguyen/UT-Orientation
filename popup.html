@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <title>UT Orientation+</title>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet"/>
+    <style>
+        html,
+        body {
+            font-family: 'Manrope', sans-serif;
+            font-size: 14px;
+            margin: 0;
+            min-height: 180px;
+            padding: 0;
+            width: 265px;
+            background-color: peachpuff;
+        }
+
+        h1 {
+            font-family: 'Manrope', sans-serif;
+            font-size: 22px;
+            color:rgb(189, 109, 45);
+            margin: 0; 
+            text-align: center;
+        }
+        
+        p {
+            padding-top: 2px;
+            padding-bottom: 2px;
+            color: #755337;;
+            text-align: left;
+            font-size: 9px;
+            padding-left: 70px;
+            margin: 0;
+        }
+
+        .header-logo{
+            height: 70px;
+            width: 70px;
+            position: absolute;
+            padding-top: 35px;
+            padding-right: 30px;
+        }
+
+        button {
+            background-color: transparent;
+            border: none;
+        }
+
+        .logo-icon {
+            height: 50px;
+            width: 50px;
+        }
+
+        .small-icon {
+            height: 25px;
+            width: 25px;
+        }
+
+        .dropbtn {
+            background-color: peachpuff;
+            color: white;
+            border-top: 0px solid #dadada;
+            border: none;
+        }
+ 
+        .dropdown {
+            position: relative;
+            display: inline-block;;
+        } 
+ 
+        .dropdown-content {
+            font-size: 10px;
+            display: none;
+            position: absolute;
+            background-color: rgb(230, 163, 104);
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            min-width: 50px;
+            width: auto;
+            z-index: 1;
+            text-align: center;
+            box-align: auto;
+            white-space: nowrap;
+        }
+
+        .audit-dropdown{
+            left: -12px;
+        }
+
+        .degree-dropdown{
+            left: -45px;
+        }
+ 
+        .connect-dropdown {
+            left: 7px;
+        }
+        
+        .registration-dropdown {
+            left: -15px;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 5px 5px;
+            width: auto;
+            display: block;
+            font-size: 9px;
+        }
+ 
+        .dropdown-content a:hover {background-color: rgba(73, 84, 243, 0.2); display: block;}
+ 
+        .dropdown:hover .dropdown-content {display: block; }
+  
+        .dropdown:hover .dropbtn {background-color: transparent}
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class = "modal-content"> 
+        <a href="https://my.utexas.edu/" target = "_blank">
+        <image class="header-logo" img src="images/giphy.gif" title = "Click here to get to myUT!" alt="Hook'em"></image></a>
+        <h1>UT Orientation+</h1>
+        <p>Congrats and Welcome UT'24!</p>
+        <p>UT Orientation+ provides links to resources to help you with your orientation experience! Hover over the icons/links to get a descripton of the attached link(s). </p>
+        <p>Hook'em!</p>
+    </div>
+
+    <div class = "modal-content">
+        <button title="Orientation Schedule!"> 
+            <a href= "https://orientation.utexas.edu/freshman/schedule" target="_blank"> 
+                <image class="logo-icon" src="images/schedule.png" alt="Orientation Schedule"></image>
+            </a>
+        </button>
+        <div class = "dropdown">
+            <button class = "dropbtn" title="Find your degree plan for your school!"><image class ="logo-icon" src = "images/checklist.png" alt = "Degree Checklist"></image> </button> 
+            <div class="dropdown-content degree-dropdown">
+                <a href="https://ugs.utexas.edu/core/requirements"  target="_blank">School of Undergraduate Studies</a>
+                <a href=" https://cns.utexas.edu/degree-checklists" target="_blank">College of Natural Sciences</a>
+                <a href="https://soa.utexas.edu/programs/architecture/architecture-undergraduate-degrees" target="_blank">School of Architecture</a>
+                <a href="https://my.mccombs.utexas.edu/BBA/Advising/Degree-Planning/Degree-Plans" target="_blank">Mccombs School of Business</a>
+                <a href="https://liberalarts.utexas.edu/student-affairs/Majors-and-Minors/Degree-Plans.php" target="_blank">College of Liberal Arts</a>
+                <a href="https://catalog.utexas.edu/undergraduate/nursing/degrees-and-programs/bs-nursing/" target="_blank">School of Nursing</a>
+                <a href="https://catalog.utexas.edu/undergraduate/engineering/degrees-and-programs/" target="_blank">Cockrell School of Engineering</a>
+                <a href="https://moody.utexas.edu/students/undergraduate/undergraduate-degree-requirements" target="_blank">Moody College of Communication</a>
+                <a href="https://education.utexas.edu/students/undergraduate-students/all-undergraduate-degree-programs/" target="_blank">College of Education</a>
+                <a href="https://www.jsg.utexas.edu/education/undergraduate/degrees-offered/" target="_blank">Jackson School of Geosciences</a>
+                <a href=" https://finearts.utexas.edu/students/degree-guidelines-4-year-plans" target="_blank">College of Fine Arts</a>
+                <a href="https://socialwork.utexas.edu/bsw/degree-requirements/ " target="_blank">Steve Hicks School of Social Work </a>
+            </div>
+        </div>
+        <button title="Minors and Certificates!">
+            <a href="https://catalog.utexas.edu/undergraduate/the-university/minor-and-certificate-programs/" target="_blank">
+                <image class="logo-icon" src="images/cert.png" alt="Minors and Certificates"></image>
+            </a>
+        </button> 
+        <div class = "dropdown">
+            <button class = "dropbtn" title = "Degree Audit & Credit by Exam">
+                <image class = "logo-icon" src = "images/audit.png" alt = "Degree Audit & Credit by Exam"></image>
+            </button>
+            <div class = "dropdown-content audit-dropdown">
+                <a href= "https://testingservices.utexas.edu/search-undergraduate-exams" title="See what course credit you get from your exam scores!" target="_blank">Credit by Exam</a>
+                <a href= "https://utdirect.utexas.edu/apps/degree/audits/"  title= "See how far you are in your degree plan!" target="_blank">Degree Audit</a>
+            </div>
+        </div>
+        <button title = "Plan out your class schedule here!">
+            <a href= "https://utdirect.utexas.edu/apps/registrar/ut_planner/" target="_blank"> 
+                <image class="logo-icon" src="images/cal.png" alt="Schedule Calendar"></image>
+            </a>
+        </button>
+        <div class = "dropdown">
+            <button class = "dropbtn" title = "Registration Resources"> 
+                <image class="logo-icon" src="images/plus.png" alt="Registration"></image>
+            </button>
+            <div class = "dropdown-content registration-dropdown">
+                <a href="https://utdirect.utexas.edu/apps/registrar/course_schedule/20209/" title="Look up courses for Fall 2020!" target="_blank">Fall 2020 Courses</a>
+                <a href= "https://chrome.google.com/webstore/detail/ut-registration-plus/hboadpjkoaieogjimneceaahlppnipaa?hl=en" title="Use this resource to figure out which professors/classes to take!" target="_blank">UT Registration Plus</a>
+            </div>
+        </div>
+        <button title = "Check out all the student organizations on campus!"> 
+            <a href= "https://utexas.campuslabs.com/engage/" target="_blank">
+                <image class="logo-icon" src="images/link.png" alt="Horns Link"></image>
+            </a>
+       </button>
+        <div class = "dropdown">
+            <button class = "dropbtn" title="Connect with UT'24! Hook'em!">  
+                <image class="logo-icon" src="images/connect.png" alt="Connect!"></image> 
+            </button> 
+            <div class="dropdown-content connect-dropdown">
+                <a href="https://www.instagram.com/utaustin24/?hl=en" title="Instagram" target="_blank"><image class="small-icon" src="images/insta.png" alt="Instagram"></a>
+                <a href="https://www.facebook.com/groups/758756277887102/" title="Facebook" target="_blank"><image class="small-icon" src="images/fb.png" alt="Facebook"></a>
+                <a href="https://www.reddit.com/r/UTAustin/" title="Reddit" target="_blank"><image class="small-icon" src="images/reddit.png" alt="Reddit"></a>
+                <a href="https://discord.gg/WtVPcSS" title="Discord" target="_blank"><image class="small-icon" src="images/discord.png" alt="Discord"></a>
+            </div>
+        </div>
+        
+    </div>
+</body>
+    
+</html>
